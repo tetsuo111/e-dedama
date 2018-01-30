@@ -1,0 +1,33 @@
+/* ==============================================================
+    CUSTOM CSS
+	2018/01/30(火)
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+==============================================================   */
+/*@import url(custom-color.css);*/
+
+
+header.sticky-header{
+	border-bottom: 1px solid #cc0408;
+}
+.box-header-wrap .navbar-default .navbar-nav>.active>a, .box-header-wrap .navbar-default .navbar-nav>li>a:hover {
+	color: #cc0408 !important;
+}
+.navbar-default .navbar-brand{
+	color: #cc0408;
+}
+
+.banner-area{
+	background:#cc0408;
+}
+/*仮置き*/
+.box-header-wrap .navbar-brand{
+	padding: 40px;
+}
+
+.fs11{
+	font-size: 11px;
+}
+.is-bold{
+	font-weight: 600;
+}
