@@ -1,0 +1,138 @@
+/* ==============================================================
+    CUSTOM CSS
+	2018/01/30(火)
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+==============================================================   */
+/*
+	下記ファイルの必要性がないため、コメントアウト
+	@import url(custom-color.css);
+*/
+
+/*** custom-colorに移行予定 ***/
+header.sticky-header{
+	border-bottom: 1px solid #c9282a;
+}
+.box-header-wrap .navbar-default .navbar-nav>.active>a, .box-header-wrap .navbar-default .navbar-nav>li>a:hover {
+	color: #c9282a !important;
+}
+.navbar-default .navbar-brand{
+	color: #c9282a;
+}
+
+/*** 背景 ***/
+.banner-area{
+	background:#c9282a;
+}
+/*** 横棒 ***/
+.section-title h2 span:before, .section-title h2 span:after{
+	background: #c9282a;
+}
+
+/*** 赤・ ***/
+.screenshots-area .owl-dot.active, .people .owl-dot.active{
+	background: #c9282a;
+}
+/*** 赤〇 ***/
+.screenshots-area .owl-dot, .people .owl-dot{
+	border: 1px solid #c9282a;
+}
+/*** 薄い青背景 ***/
+.people .single .texts{
+	background: rgba(201,40,42, .8);
+}
+/*** 直角三角形 ***/
+.people .single .texts:before{
+	border-bottom: 100px solid rgba(201,40,42, .8);
+}
+
+/*** プレミアム ***/
+.packages .premium .single .name{
+	background: #c9282a;
+}
+.packages .premium .single ul li{
+	color: #c9282a;
+}
+.packages .premium .single:after{
+	border-top: 550px solid #c9282a;
+}
+.packages .single:before, .team-members .single .img-holder:before{
+	border-left: 357px solid #c9282a;
+}
+.packages .single:after, .team-members .single .img-holder:after{
+	border-top: 503px solid #c9282a;
+}
+
+.branding-color{
+	color: #c9282a;
+}
+.branding-bg-color{
+	background: #c9282a;
+}
+
+/***アプリダウンロード背景 ***/
+.overlay-video-area .overlay, .get-app-area .overlay{
+	background: rgba(201,40,42, .8);
+}
+
+/*** ヘッダーロゴ調整 ***/
+.box-header-wrap .navbar-brand{
+	padding: 40px 10px;
+}
+.box-header-wrap .navbar-default .navbar-nav>li>a{
+	padding: 50px 10px 30px;
+}
+
+/***  ヘッダーロゴ  ***/
+.header-logo{
+	font-weight: 600;
+}
+.header-logo span{
+	font-size: 11px;
+}
+.call{
+	display: block;
+	font-weight: 600;
+	font-size: 16px;
+	font-family: normal;
+	padding: 47px 0 30px 10px;
+	text-align: right;
+}
+.navbar-brand-right{
+	height: 50px;
+    padding: 40px 20px;
+    font-size: 18px;
+    line-height: 20px;
+    float: right;
+}
+/*==================================
+=            Exchange Flow         =
+==================================*/
+.exchangeflow ul li{
+	text-align: left;
+}
+
+
+.exchageflow .is-list-1 li{
+	
+}
+
+.exchageflow .is-list-2 li{
+	
+}
+
+
+
+
+
+/***  フッターロゴ  ***/
+.footer-logo{
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 25px;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 25px;
+}
+.footer-logo span{
+	font-size: 15px;
+}
