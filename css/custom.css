@@ -77,10 +77,10 @@ header.sticky-header{
 
 /*** ヘッダーロゴ調整 ***/
 .box-header-wrap .navbar-brand{
-	padding: 40px 5px;
+	padding: 40px 10px;
 }
 .box-header-wrap .navbar-default .navbar-nav>li>a{
-	padding: 50px 8px 30px;
+	padding: 50px 10px 30px;
 }
 
 /***  ヘッダーロゴ  ***/
@@ -92,13 +92,39 @@ header.sticky-header{
 }
 .call{
 	display: block;
-	position: absolute;
-	right: 25px;
-	top: 50px;
 	font-weight: 600;
-	font-size: 15px;
+	font-size: 16px;
 	font-family: normal;
+	padding: 47px 0 30px 10px;
+	text-align: right;
 }
+.navbar-brand-right{
+	height: 50px;
+    padding: 40px 20px;
+    font-size: 18px;
+    line-height: 20px;
+    float: right;
+}
+/*==================================
+=            Exchange Flow         =
+==================================*/
+.exchangeflow ul li{
+	text-align: left;
+}
+
+
+.exchageflow .is-list-1 li{
+	
+}
+
+.exchageflow .is-list-2 li{
+	
+}
+
+
+
+
+
 /***  フッターロゴ  ***/
 .footer-logo{
 	font-family: 'Raleway', sans-serif;
