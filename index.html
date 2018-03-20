@@ -2,20 +2,29 @@
 <html lang="ja">
 <head>
 	<meta charset="utf-8">
-
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<!-- ========== VIEWPORT META ========== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
 
 	<!-- ========== PAGE TITLE ========== -->
-	<title>Top Apps Landing Page</title>
+	<title>一般景品交換の「e-出玉」サービス</title>
 
 	<!-- ========== META TAGS ========== -->
-	<meta name="description" content="Top Apps Landing Page">
-	<meta name="keywords" content="landing page, responsive, onepage">
-	<meta name="author" content="Revolthemes">
+	<meta name="description" content="「e-出玉」は来店ポイントや出玉と一般景品をスマホで簡単に交換できる画期的なサービスです。">
+	<meta name="keywords" content="ウエストマーケティングジャパン株式会社,e-出玉,パチンコ,スロット,スマホアプリ,等価交換,一般景品">
+	<meta name="author" content="ウエストマーケティングジャパン株式会社">
 
+	<!-- ========== SNS SHARE TEXT ========== -->
+	<meta property="og:title" content="一般景品交換の「e-出玉」サービス">
+	<meta property="og:type" content="website">
+	<!--本番サイト時、URLを要変更。 -->
+	<meta property="og:url" content="http://e-dedama.com/">
+	<meta property="og:image" content="img/sns_share.png">
+	<meta property="og:site_name" content="一般景品交換の「e-出玉」サービス">
+	<meta property="og:description" content="e-出玉」は来店ポイントや出玉と一般景品をスマホで簡単に交換できる画期的なサービスです。">
+	
 	<!-- ========== FAVICON ========== -->
-	<link rel="shortcut icon" href="img/favicon.png">
+	<link rel="shortcut icon" href="img/favicon2.png">
 
 	<!-- ========== MINIFIED VENDOR CSS ========== -->
 	<link rel="stylesheet" href="css/plugins.css">
@@ -24,55 +33,36 @@
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/custom.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
+	
+	<!-- ========== NON-RESPONSIVE CSS ========== -->
+	<link rel="stylesheet" href="css/bootstrap-nonresponsive.css">
 
-  	<!--[if lt IE 9]>
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    <![endif]-->
+	<!--[if lt IE 9]>
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	<![endif]-->
 
 </head><!--/head-->
-<!--
-//////////////////////////////////////////////////////
-
-Top App Landing Page - One Page HTML Template
-DESIGNED & DEVELOPED by Revoltheme
-
-Website: 		http://www.revoltheme.com
-Email: 			contact@revoltheme.com
-Twitter: 		https://twitter.com/
-Facebook: 		https://www.facebook.com/
-
-//////////////////////////////////////////////////////
--->
 <body id="main">
 
 	<!-- ========== HEADER ========== -->
 	<header class="box-header sticky">
 		<div class="container">
 			<div class="row box-header-wrap">
-					<nav class="navbar navbar-default">
-						<div class="navbar-header pull-left">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-							<a class="navbar-brand header-logo" href="#">West Marketing Japan co.,ltd<br/><span>株式会社ウェストマーケティングジャパン</span></a>
-						</div>
-						
-						<div class="collapse navbar-collapse pull-left" id="bs-example-navbar-collapse-1">
-							<ul class="main-nav nav navbar-nav text-uppercase text-right">
-								<li><a href="#home">home</a></li>
-								<li><a href="#about">about</a></li>
-								<li><a href="#features">features</a></li>
-								<li><a href="#screenshots">screenshots</a></li>
-								<li><a href="#pricing">pricing</a></li>
-								<li><a href="#testimonials">testimonials</a></li>
-								<li><a href="#contact">contact</a></li>
-							</ul>
-							<a class="navbar-brand-right" href="#"><img src="img/call-number2.png" alt="電話番号" /></a>
-						</div><!-- /.navbar-collapse -->
-					</nav>
+				<nav class="navbar navbar-default">
+					<div class="navbar-header pull-left">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand navbar-brand-textlogo" href="http://www.west-m.jp/">West Marketing Japan co.,ltd<br/><span>ウエストマーケティングジャパン株式会社</span></a>
+					</div>
+
+					<div class="navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+						<figure class="navbar-brand-right" href="#"><img src="img/callnumber.png" alt="電話番号" width="400" height="99" class="img-responsive"/></figure>
+					</div><!-- /.navbar-collapse -->
+				</nav>
 				<!-- End desktop nav -->
 			</div> <!-- //.row -->
 		 </div> <!-- //.container -->
@@ -84,57 +74,60 @@ Facebook: 		https://www.facebook.com/
 		<div class="container">
 			<div class="row">
 				<div class="banner-image">
-					<img src="img/header-img.png" alt="キャッチフレーズ" class="img-responsive" />
+					<img src="img/header-img.png?20180216" alt="キャッチフレーズ" class="img-responsive" width="1170" height="330" />
 				</div>
 			</div>
 		</div>
 	</section>
 	<!-- //End banner area -->
 	
-	<section id="about" class="text-center">
+	<section id="about" class="service">
 		<div class="container">
 			<div class="row">
-				<div class="section-title col-sm-8 col-sm-offset-2">
-					<h2 class=" branding-color">e-出玉とは
+				<div class="section-title">
+					<h2 class="text-center branding-color">「e-出玉」とは
 						<span>
 							<i class="fa fa-circle"></i>
 							<i class="fa fa-circle"></i>
 							<i class="fa fa-circle"></i>
 						</span>
 					</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipiscing elit donec tempus pellentesque dui vel tristique purus justo vestibulum eget lectus non gravida ultrices</p>
+					<p>「e-出玉」はユーザのスマホからECサイトと要領で景品を選択し、発注できる画期的なサービスです。パチンコ業界は「等価交換廃止」の流れをうけて、大きな変革期に差し掛かっています。ユーザにとって「特殊景品」の交換は出玉の価値が目減りしてしまうことから、今後は価値が目減りしない「一般景品」への交換が増加すると予想されます。「e-出玉」はこれまで「一般景品」の課題とされてきた点をクリアする新しいサービスです。</p>
 				</div>
-				<div class="exchangeflow">
-					<div class="col-lg-12">
+				<div class="clearfix">
+					<div class="service-exchange">
+						<h3 class="section-sub-title "><img src="img/e-dedama-logo.png" alt="e-出玉ロゴ" width="120" height="41"><span>の仕組み</span></h3>
 						<figure class="image">
-							<img src="img/exchange_flow.png" alt="交換の流れ">
+							<img src="img/exchange_flow.png" alt="交換の流れ" class="img-responsive" width="1170" height="471">
 						</figure>
 					</div>
-					<div class="clearfix">
-						<div class="col-lg-2">
-							<h3 class="">これまで・・・</h3>
+					<div class="clearfix service-before">
+						<h3 class="section-sub-title">これまでの一般景品は・・・</h3>
+						<div class="col-md-2 col-sm-2">
 							<figure class="image">
-								<img src="img/study.png" alt="勉強" width="100">
+								<img src="img/study.png" alt="勉強" width="120" height="140">
 							</figure>
 						</div>
-						<div class="col-lg-4">
-							<ul>
-								<li>・魅力的な景品がない</li>
-								<li>・景品の数が少ない</li>
+						<div class="col-md-10 col-sm-10">
+							<ul class="is-list">
+								<li>・魅力的な景品が少ない</li>
+								<li>・景品のアイテム数が少ない</li>
 								<li>・景品が固定化されている</li>
-								<li>・景品を探すのが面倒</li>
+								<li>・カタログで景品を探すのが面倒</li>
 							</ul>
 						</div>
 					</div>
-					<div class="">
-						<div class="col-md-4">
-							<h3><img src="img/e-dedama-logo.png" alt="e-出玉ロゴ"><span>なら・・・</span></h3>
+					<div class="clearfix service-after">
+						<h3 class="section-sub-title">
+							<img src="img/e-dedama-logo.png" alt="e-出玉ロゴ" width="129" height="44"><span>なら・・・</span>
+						</h3>
+						<div class="col-md-2 col-sm-2">
 							<figure class="image">
-								<img src="img/smartphone.png" alt="スマホ e-出玉" width="100">
+								<img src="img/smartphone.png" alt="スマホ e-出玉" width="100" height="206">
 							</figure>
 						</div>
-						<div class="col-md-7">
-							<ul>
+						<div class="col-md-10 col-sm-10">
+							<ul class="is-list">
 								<li>・幅広い層に届く豊富なジャンル!</li>
 								<li>・圧倒的なアイテムの数!</li>
 								<li>・流行のアイテムを即アップ!</li>
@@ -146,48 +139,99 @@ Facebook: 		https://www.facebook.com/
 			</div>
 		</div>
 	</section>
-	<!-- ========== TEXT OVERVIEW SECTION ========== -->
-	<section id="about" class="overview-area text-center">
+	
+	<!-- ========== TEXT SERVICE SECTION ========== -->
+	<section id="service" class="overview-area">
 		<div class="container">
 			<div class="row">
-				<div class="section-title col-sm-8 col-sm-offset-2">
-					<h2 class="text-uppercase branding-color">overview
+				<div class="section-title">
+					<h2 class="branding-color text-center">「e-出玉」サービスの特長
 						<span>
 							<i class="fa fa-circle"></i>
 							<i class="fa fa-circle"></i>
 							<i class="fa fa-circle"></i>
 						</span>
 					</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipiscing elit donec tempus pellentesque dui vel tristique purus justo vestibulum eget lectus non gravida ultrices</p>
+					<p>「e-出玉」にはホール様の運用を円滑に進め、ユーザの満足度を高めるたくさんのサービスをご用意しております。</p>
 				</div>
 				
 				<div class="overviews">
-					<div class="col-md-3 col-sm-6">
+					<div class="col-md-3 col-sm-3">
 						<div class="single">
-							<i class="fa fa-pencil"></i>
-							<h4 class="text-uppercase">brand identity</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+							<figure class="intro-image">
+								<img src="img/intro.png" alt="簡単スピード導入" width="80" height="80">
+							</figure>
+							<h4 class="text-uppercase">かんたん＆スピード導入</h4>
+							<p>初期設定やハード機器の設置はすべておまかせ下さい。
+							ご注文から1ヶ月程度でサービスを開始できます。</p>
+							<p>※ホール側ではインターネット回線のご準備が前提となります。</p>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6">
+					<div class="col-md-3 col-sm-3">
 						<div class="single">
-							<i class="fa fa-gears"></i>
-							<h4 class="text-uppercase">easy customize</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+							<figure>
+								<img src="img/many-item.png" alt="豊富なアイテム" width="100" height="100">
+							</figure>
+							<h4 class="text-uppercase">豊富なアイテムの数々</h4>
+							<p>日用品から家電製品まで定番・流行問わず幅広いアイテムを取揃えています。またドン・キホーテ社のオリジナルブランド「情熱価格」も扱っており、ホール内ではドンキロゴをつかった宣伝・告知も展開できます。</p>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6">
+					<div class="col-md-3 col-sm-3">
 						<div class="single">
-							<i class="fa fa-transgender-alt"></i>
-							<h4 class="text-uppercase">modern design</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+							<figure class="management-image">
+								<img src="img/product-management.png" alt="景品管理は当社におまかせ" width="100" height="100">
+							</figure>
+							<h4 class="text-uppercase">景品管理は当社におまかせ</h4>
+							<p>景品管理はすべて当社におまかせください。景品の実物をホールに陳列する必要はなく、煩わしい景品管理からも開放されます。</p>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6">
+					<div class="col-md-3 col-sm-3">
 						<div class="single">
-							<i class="fa fa-life-ring"></i>
-							<h4 class="text-uppercase">fully support</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+							<figure>
+								<img src="img/g-phone.png" alt="ガラケー・カード会員との同時運用OK" width="100" height="100">
+							</figure>
+							<h4 class="text-uppercase">ガラケー・カード会員との同時運用OK</h4>
+							<p>スマホ操作が苦手なユーザ向けにガラケーやカードにも対応。狙ったユーザを取りこぼしません。
+							「e-出玉」システム内で会員を一元管理することができます。</p>
+						</div>
+					</div>
+					
+					<div class="col-md-3 col-sm-3">
+						<div class="single">
+							<figure>
+								<img src="img/cloud-management.png" alt="システムはすべてクラウド管理！" width="115" height="115">
+							</figure>
+							<h4 class="text-uppercase">システムは<br/>すべてクラウド管理！</h4>
+							<p>「e-出玉」のシステムはクラウド上で動作し、
+								万全のセキュリティ体制を敷いていおります。またホールごとに操作ログが残るので、景品交換時の不正抑止の効果が期待できます。</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<div class="single">
+							<figure>
+								<img src="img/members-data.png" alt="景品管理は当社におまかせ" width="100" height="100">
+							</figure>
+							<h4 class="text-uppercase">会員データの活用</h4>
+							<p>年齢、性別、来店履歴等の会員データを活用して、会員動向を分析することが可能です。</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<div class="single">
+							<figure>
+								<img src="img/data-info.png" alt="台データ情報の提供（オプションサービス）" width="90" height="100">
+							</figure>
+							<h4 class="text-uppercase">店舗情報</h4>
+							<p>会員とのコミュニケーションツールとして、店舗の新台情報等をアプリからいつでも発信することができます。</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<div class="single">
+							<figure>
+								<img src="img/table_info.png" alt="景品管理は当社におまかせ" width="100" height="100">
+							</figure>
+							<h4 class="text-uppercase">台データ情報の提供<br/>（オプション）</h4>
+							<p>詳細な台データ等の情報を随時会員の端末に配信しホールの状況をPRします。</p>
+							<p>※導入には追加費用が必要になります。</p>
 						</div>
 					</div>
 				</div>
@@ -195,7 +239,6 @@ Facebook: 		https://www.facebook.com/
 		</div>
 	</section>
 	<!-- //End overview area -- >
-
 
 	<!-- ========== TOPAPPS FEATURES SECTION ========== -->
 	<section id="features" class="features-area branding-bg-color white-color">
@@ -209,13 +252,46 @@ Facebook: 		https://www.facebook.com/
 							<i class="fa fa-circle"></i>
 						</span>
 					</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipiscing elit donec tempus pellentesque dui vel tristique purus justo vestibulum eget lectus non gravida ultrices</p>
 				</div>
 				
 				<div class="col-sm-4 left text-right">
 					<div class="single">
 						<div class="col-md-3 col-sm-4 icon-holder visible-xs">
+							<i class="fa fa-external-link"></i>
+						</div>
+						
+						<div class="texts col-md-9 col-sm-8 ">
+							<h3 class="title">ホール別の来店ポイント付与機能</h3>
+							<p>複数のホールに導入する場合でもアプリは1つでOK！ホール別に来店ポイントを付与・管理します。</p>
+						</div>
+						
+						<div class="col-md-3 col-sm-4 icon-holder hidden-xs">
+							<figure>
+								<img src="img/features-points.png" alt="ホール別の来店ポイント付与機能" width="60" height="50">
+							</figure>
+						</div>
+					</div>
+					<div class="single">
+						<div class="col-md-3 col-sm-4 icon-holder visible-xs">
 							<i class="fa fa-desktop"></i>
+						</div>
+						
+						<div class="texts col-md-9 col-sm-8">
+							<h3 class="title text-uppercase">出玉カレンダー機能</h3>
+							<p>カレンダーに出玉の遊技の結果を記録させる機能です。</p>
+						</div>
+						
+						<div class="col-md-3 col-sm-4 icon-holder hidden-xs">
+							<figure>
+								<img src="img/features-calender.png" alt="出玉カレンダー機能" width="60" height="50">
+							</figure>
+						</div>
+					</div>
+					
+					
+					<div class="single">
+						<div class="col-md-3 col-sm-4 icon-holder visible-xs">
+							<i class="fa fa-file-text-o"></i>
 						</div>
 						
 						<div class="texts col-md-9 col-sm-8">
@@ -224,37 +300,9 @@ Facebook: 		https://www.facebook.com/
 						</div>
 						
 						<div class="col-md-3 col-sm-4 icon-holder hidden-xs">
-							<i class="fa fa-desktop"></i>
-						</div>
-					</div>
-					
-					<div class="single">
-						<div class="col-md-3 col-sm-4 icon-holder visible-xs">
-							<i class="fa fa-external-link"></i>
-						</div>
-						
-						<div class="texts col-md-9 col-sm-8 ">
-							<h3 class="title">ホール別の来店ポイント付与機能</h3>
-							<p>複数のホールに導入する場合でもアプリは1つでOK！</p>
-							<p>ホール別に来店ポイントを付与・管理します。</p>
-						</div>
-						
-						<div class="col-md-3 col-sm-4 icon-holder hidden-xs">
-							<i class="fa fa-external-link"></i>
-						</div>
-					</div>
-					<div class="single">
-						<div class="col-md-3 col-sm-4 icon-holder visible-xs">
-							<i class="fa fa-file-text-o"></i>
-						</div>
-						
-						<div class="texts col-md-9 col-sm-8">
-							<h3 class="title text-uppercase">景品交換機能</h3>
-							<p>ECサイトと同じ要領で買い物カートに希望する景品を入れ、配送先の住所を指定するだけ！交換の履歴も残ります。</p>
-						</div>
-						
-						<div class="col-md-3 col-sm-4 icon-holder hidden-xs">
-							<i class="fa fa-file-text-o"></i>
+							<figure>
+								<img src="img/features-member.png" alt="QR会員証機能" width="50" height="37">
+							</figure>
 						</div>
 					</div>
 				</div>
@@ -262,38 +310,44 @@ Facebook: 		https://www.facebook.com/
 				<div class="col-sm-4 feature-img text-center">
 					<img src="img/smartphone.png" alt="スマホ e-出玉" class="img-responsive" />
 				</div>
-				
+
 				<div class="col-sm-4 right">
 					<div class="single">
 						<div class="col-md-3 col-sm-4 icon-holder">
-							<i class="fa fa-heart"></i>
+							<figure>
+								<img src="img/features-exchange.png" alt="景品交換機能" width="60" height="50">
+							</figure>
 						</div>
 
+						<div class="texts col-md-9 col-sm-8">
+
+							<h3 class="title text-uppercase">景品交換機能</h3>
+							<p>ECサイトと同じ要領で買い物カートに希望する景品を入れ、配送先の住所を指定するだけ！交換の履歴も残ります。</p>
+						</div>
+					</div>
+
+					<div class="single">
+						<div class="col-md-3 col-sm-4 icon-holder">
+							<figure>
+								<img src="img/features-branch-info.png" alt="店舗情報機能" width="50" height="50">
+							</figure>
+						</div>
+						
 						<div class="texts col-md-9 col-sm-8">
 							<h3 class="title">店舗情報機能</h3>
 							<p>ホールの住所や連絡先、駐車場、地図等の基本情報を表示させることができます。</p>
 						</div>
 					</div>
-					
-					
 					<div class="single">
 						<div class="col-md-3 col-sm-4 icon-holder">
-							<i class="fa fa-unlink"></i>
+							<figure>
+								<img src="img/features-push.png" alt="プッシュ通知機能" width="60" height="50">
+							</figure>
 						</div>
 						
 						<div class="texts col-md-9 col-sm-8">
 							<h3 class="title text-uppercase">プッシュ通知機能</h3>
 							<p>新台の入替えなどのお知らせにプッシュ通知を活用できます。</p>
-						</div>
-					</div>
-					<div class="single">
-						<div class="col-md-3 col-sm-4 icon-holder">
-							<i class="fa fa-code"></i>
-						</div>
-						
-						<div class="texts col-md-9 col-sm-8">
-							<h3 class="title text-uppercase">出玉カレンダー機能</h3>
-							<p>カレンダーに出玉の遊技の結果を記録させる機能です。</p>
 						</div>
 					</div>
 				</div>
@@ -307,35 +361,40 @@ Facebook: 		https://www.facebook.com/
 		<div class="container">
 			<div class="row">
 				<div class="section-title col-sm-8 col-sm-offset-2 text-center">
-					<h2 class="text-uppercase branding-color">awesome screenshots
+					<h2 class="text-uppercase branding-color">スマホアプリのイメージ
 						<span>
 							<i class="fa fa-circle"></i>
 							<i class="fa fa-circle"></i>
 							<i class="fa fa-circle"></i>
 						</span>
 					</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipiscing elit donec tempus pellentesque dui vel tristique purus justo vestibulum eget lectus non gravida ultrices</p>
 				</div>
 				<div class="clearfix"></div>
 				
 				<div class="screenshots">
 					<div class="single">
-						<img src="img/screenshot-1.png" alt="" class="img-responsive" />
+						<img src="img/sp-image-1.png" alt="トップ" class="img-responsive" width="100" height="473" />
 					</div>
 					<div class="single">
-						<img src="img/screenshot-2.png" alt="" class="img-responsive" />
+						<img src="img/sp-image-2.png" alt="QRコード" class="img-responsive" width="100" height="473"/>
 					</div>
 					<div class="single">
-						<img src="img/screenshot-3.png" alt="" class="img-responsive" />
+						<img src="img/sp-image-3.png" alt="現在のポイント" class="img-responsive" width="100" height="473"/>
 					</div>
 					<div class="single">
-						<img src="img/screenshot-4.png" alt="" class="img-responsive" />
+						<img src="img/sp-image-4.png" alt="商品確認選択画面" class="img-responsive" width="100" height="473"/>
 					</div>
 					<div class="single">
-						<img src="img/screenshot-1.png" alt="" class="img-responsive" />
+						<img src="img/sp-image-5.png" alt="利用履歴" class="img-responsive" width="100" height="473"/>
 					</div>
 					<div class="single">
-						<img src="img/screenshot-2.png" alt="" class="img-responsive" />
+						<img src="img/sp-image-6.png" alt="店舗情報" class="img-responsive" width="100" height="473"/>
+					</div>
+					<div class="single">
+						<img src="img/sp-image-7.png?20180220" alt="ホール一覧" class="img-responsive" width="100" height="473"/>
+					</div>
+					<div class="single">
+						<img src="img/sp-image-8.png?20180216" alt="カレンダー" class="img-responsive" width="100" height="473"/>
 					</div>
 				</div>
 			</div>
@@ -343,264 +402,44 @@ Facebook: 		https://www.facebook.com/
 	</section>
 	<!-- //End AWESOME SCREENSHOTS area -- >
 
-	<!-- ========== WHAT PEOPLE SAYING SECTION ========== -->
-	<section id="testimonials" class="people-saying-area">
-		<div class="container">
-			<div class="row">
-				<div class="section-title col-sm-8 col-sm-offset-2 text-center">
-					<h2 class="text-uppercase branding-color">what people are saying
-						<span>
-							<i class="fa fa-circle"></i>
-							<i class="fa fa-circle"></i>
-							<i class="fa fa-circle"></i>
-						</span>
-					</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipiscing elit donec tempus pellentesque dui vel tristique purus justo vestibulum eget lectus non gravida ultrices</p>
-				</div>
-				<div class="clearfix"></div>
-				
-				<div class="people">
-					<div class="single">
-						<div class="skew-shape">
-							<img src="img/people-1.png" alt="" class="img-responsive" />
-						</div>
-						
-						<div class="texts">
-							<p><span><i class="fa fa-quote-left"></i></span> Thanks yet again another successful and very populer mobile app.</p>
-							
-							<p class="text-uppercase">DANIEL MOORE</p>
-						</div>
-					</div>
-					<div class="single">
-						<div class="skew-shape">
-							<img src="img/people-2.png" alt="" class="img-responsive" />
-						</div>
-						
-						<div class="texts">
-							<p><span><i class="fa fa-quote-left"></i></span> Thanks yet again another successful and very populer mobile app.</p>
-							
-							<p class="text-uppercase">DANIEL MOORE</p>
-						</div>
-					</div>
-					<div class="single">
-						<div class="skew-shape">
-							<img src="img/people-1.png" alt="" class="img-responsive" />
-						</div>
-						
-						<div class="texts">
-							<p><span><i class="fa fa-quote-left"></i></span> Thanks yet again another successful and very populer mobile app.</p>
-							
-							<p class="text-uppercase">DANIEL MOORE</p>
-						</div>
-					</div>
-					<div class="single">
-						<div class="skew-shape">
-							<img src="img/people-2.png" alt="" class="img-responsive" />
-						</div>
-						
-						<div class="texts">
-							<p><span><i class="fa fa-quote-left"></i></span> Thanks yet again another successful and very populer mobile app.</p>
-							
-							<p class="text-uppercase">DANIEL MOORE</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- //End WHAT PEOPLE SAYING area -- >
-
-	<!-- ========== OUR PRICING SECTION ========== -->
-	<section id="pricing" class="pricing-area text-center">
-		<div class="container">
-			<div class="row">
-				<div class="section-title col-sm-8 col-sm-offset-2">
-					<h2 class="text-uppercase branding-color">our pricing
-						<span>
-							<i class="fa fa-circle"></i>
-							<i class="fa fa-circle"></i>
-							<i class="fa fa-circle"></i>
-						</span>
-					</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipiscing elit donec tempus pellentesque dui vel tristique purus justo vestibulum eget lectus non gravida ultrices</p>
-				</div>
-				<div class="clearfix"></div>
-				
-				<div class="packages clearfix">
-					
-					<div class="col-sm-4 classic">
-						<div class="single">
-							<h3 class="name branding-color text-uppercase">classic</h3>
-							
-							<ul class="list-unstyled">
-								<li>$ 9.99 / Month</li>
-								<li><b>1GB</b> File storage</li>
-								<li><b>Unlimited</b> products</li>
-								<li><b>24/7</b> Support</li>
-								<li><b>Discount</b> code engine</li>
-							</ul>
-							<div class="clearfix"></div>
-							<a href="#" class="btn text-uppercase white-color branding-bg-color">buy</a>
-						</div>
-					</div>
-					
-					<div class="col-sm-4 premium">
-						<div class="single">
-							<h3 class="name white-color text-uppercase">premium</h3>
-							
-							<ul class="list-unstyled">
-								<li>$ 19.99 / Month</li>
-								<li><b>1GB</b> File storage</li>
-								<li><b>Unlimited</b> products</li>
-								<li><b>24/7</b> Support</li>
-								<li><b>Discount</b> code engine</li>
-							</ul>
-							<div class="clearfix"></div>
-							<a href="#" class="btn text-uppercase white-color branding-bg-color">buy</a>
-						</div>
-					</div>
-					
-					<div class="col-sm-4 pro">
-						<div class="single">
-							<h3 class="name branding-color text-uppercase">pro</h3>
-							
-							<ul class="list-unstyled">
-								<li>$ 29.99 / Month</li>
-								<li><b>1GB</b> File storage</li>
-								<li><b>Unlimited</b> products</li>
-								<li><b>24/7</b> Support</li>
-								<li><b>Discount</b> code engine</li>
-							</ul>
-							<div class="clearfix"></div>
-							<a href="#" class="btn text-uppercase white-color branding-bg-color">buy</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- //End OUR PRICING area -- >
-	
-	<!-- ========== GET APP NOW SECTION ========== -->
-	<section id="get-app" class="get-app-area text-center">
-		<div class="overlay">
-			<div class="container">
-				<div class="row">
-					<div class="section-title col-sm-8 col-sm-offset-2">
-						<h2 class="text-uppercase white-color">get app now
-							<span>
-								<i class="fa fa-circle"></i>
-								<i class="fa fa-circle"></i>
-								<i class="fa fa-circle"></i>
-							</span>
-						</h2>
-						<p class="white-color">Lorem ipsum dolor sit amet consectetur adipiscing elit donec tempus pellentesque dui vel tristique purus justo vestibulum eget lectus non gravida ultrices</p>
-					</div>
-					<div class="clearfix"></div>
-					
-					<div class="col-lg-offset-1 col-lg-10 col-sm-12 download-from-store text-center">
-						<a href="#"><img src="img/apple-store.png" alt="" class="img-responsive" /></a>
-						<a href="#"><img src="img/play-store.png" alt="" class="img-responsive" /></a>
-						<a href="#"><img src="img/windows-store.png" alt="" class="img-responsive" /></a>
-					</div>
-					<div class="clearfix"></div>
-					
-					<div class="subscribe-area">
-						<div class="pull-left">
-							<h4 class="text-uppercase white-color"><i class="fa fa-envelope"></i> subscribe to our newsletter</h4>
-						</div>
-						
-						<div class="pull-right">
-							<form action="">
-								<input type="email" class="email pull-left" placeholder="Your Email"/>
-								<button type="submit" class="btn pull-left text-uppercase white-color branding-bg-color">subscribe</button>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- //End GET APP NOW area -- >
-	
-	<!-- ========== CONTACT US SECTION ========== -->
-	<section id="contact" class="contact-area text-center">
-		<div class="overlay">
-			<div class="container">
-				<div class="row">
-					<div class="section-title col-sm-8 col-sm-offset-2">
-						<h2 class="text-uppercase branding-color">contact us
-							<span>
-								<i class="fa fa-circle"></i>
-								<i class="fa fa-circle"></i>
-								<i class="fa fa-circle"></i>
-							</span>
-						</h2>
-						<p>Lorem ipsum dolor sit amet consectetur adipiscing elit donec tempus pellentesque dui vel tristique purus justo vestibulum eget lectus non gravida ultrices</p>
-					</div>
-					<div class="clearfix"></div>
-					
-					<div class="contact-form">
-						<form action="">
-							<input type="text" class="name" placeholder="Name"/>
-							<input type="email" class="email" placeholder="Email"/>
-							<input type="text" class="subject" placeholder="Subject"/>
-							<textarea class="message" placeholder="Message"></textarea>
-							<button class="btn branding-bg-color white-color text-uppercase">send message</button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- //End CONTACT US area -- >
-	
 	<!-- ========== FOOTER SECTION ========== -->
-	<section class="footer-area white-color">
+	<section id="contact" class="footer-area white-color">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-5 col-sm-4 short-text">
-					<p class="footer-logo" href="#">West Marketing Japan co.,ltd<br/><span>株式会社ウェストマーケティングジャパン</span></p>
+				<div class="col-lg-4 col-sm-4 short-text">
+					<p class="footer-area-companyname">West Marketing Japan co.,ltd<br/><span>ウエストマーケティングジャパン株式会社</span></p>
 					
-					<p>Lorem ipsum dolor sit amet,consectetur adipiscing elit, consectetur adipiscing elit, dolor sit amet, .psum dolor sit amet,conlor sit amet, .psum olor sit amet,co consectetur adipiscing elit</p>
+					<div class="contact-info">
+						<h4>お問い合わせ</h4>
 
-					<p>Dolor sit amet, .as sed do eius.Lorem ipsum dolor sit amet. dolor sit amet, .as sed do eius.Lorem ipsum dolor sit amet</p>
+						<div class="single">
+							<h5><i class="fa fa-home"></i> 住所</h5>
+							<p>広島県広島市中区西十日市町2-2</p>
+						</div>
+						<div class="single call">
+							<h5><i class="fa fa-phone"></i> 電話番号</h5>
+							<p>082-555-2285</p>
+						</div>
+						<div class="single mail">
+							<h5><i class="fa fa-envelope"></i> Email</h5>
+							<p>info@west-m.jp</p>
+						</div>
+						<div class="single">
+							<h5><i class="fa fa-desktop"></i> ホームページ</h5>
+							<p>http://www.west-m.jp/</p>
+						</div>
+					</div>
+
 					<div class="clearfix"></div>
 					
 					<ul class="socials list-unstyled">
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
-						<li><a href="#"><i class="fa fa-skype"></i></a></li>
-						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-						<li><a href="#"><i class="fa fa-behance"></i></a></li>
+						<li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
 					</ul>
 				</div>
 				
-				<div class="col-sm-5 footer-map">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3292.097581185196!2d132.44438441550628!3d34.398865580513046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355aa271149307e5%3A0x70c2f7797c97606a!2z44CSNzMwLTA4MDYg5bqD5bO255yM5bqD5bO25biC5Lit5Yy66KW_5Y2B5pel5biC55S677yS4oiS77yS!5e0!3m2!1sja!2sjp!4v1517291361806" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-				</div>
-
-				<div class="col-lg-2 col-sm-3 contact-info">
-					<h4 class="text-uppercase">お問い合わせ</h4>
-
-					<div class="single">
-						<h5><i class="fa fa-home"></i> 住所</h5>
-						<p>広島県広島市中区西十日市町2-2</p>
-					</div>
-					<div class="single">
-						<h5><i class="fa fa-phone"></i> 電話番号</h5>
-						<p>082-555-2285</p>
-					</div>
-					<div class="single">
-						<h5><i class="fa fa-envelope"></i> Email</h5>
-						<p>info@west-m.jp</p>
-					</div>
-					<div class="single">
-						<h5><i class="fa fa-desktop"></i> ホームページ</h5>
-						<p>http://www.west-m.jp/aboutus.html</p>
-					</div>
+				<div class="col-lg-8 col-sm-8 footer-map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3292.097581185196!2d132.44438441550628!3d34.398865580513046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355aa271149307e5%3A0x70c2f7797c97606a!2z44CSNzMwLTA4MDYg5bqD5bO255yM5bqD5bO25biC5Lit5Yy66KW_5Y2B5pel5biC55S677yS4oiS77yS!5e0!3m2!1sja!2sjp!4v1517291361806" width="700" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
@@ -619,5 +458,15 @@ Facebook: 		https://www.facebook.com/
 	<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 	<script type="text/javascript" src="js/switcher.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113877624-1"></script>
+	<script>
+		if (location.hostname == 'e-dedama.com') {
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-113877624-1');
+		}
+	</script>
 </body>
 </html>

@@ -15,14 +15,14 @@
 	.how-works-area .right img {
 		margin-top: 40px;
 	}
-	.features-area .single .icon-holder i::after {
+	.features-area .single .icon-holder i::after,.features-area .single .icon-holder figure::after,.features-area .single .icon-holder figure::after,.features-area .right .single .icon-holder figure::after {
 		right: -35px;
 		width: 20px;
 	}
 	.features-area .single::after {
 		right: -35px;
 	}
-	.features-area .right .single::after, .features-area .right .single .icon-holder i::after {
+	.features-area .right .single::after, .features-area .right .single .icon-holder i::after,features-area .right .single figure::after,features-area .right .single figure::after {
 		left: -35px;
 	}
 	.people .single .skew-shape:before {
@@ -103,14 +103,14 @@
 	.features-area .right .single .icon-holder i {
 		padding: 25px 0 0 15px;
 	}
-	.features-area .right .single::after, .features-area .right .single .icon-holder i::after {
+	.features-area .right .single::after, .features-area .right .single .icon-holder i::after,features-area .right .single figure::after {
 		left: -8px;
 	}
-	.features-area .single .icon-holder i::after {
+	.features-area .single .icon-holder i::after,.features-area .single .icon-holder figure::after {
 		right: -8px;
 		width: 13px;
 	}
-	.features-area .right .single .icon-holder i::after {
+	.features-area .right .single .icon-holder i::after,.features-area .right .single .icon-holder figure::after {
 		right: -35px;
 		width: 13px;
 	}
@@ -200,10 +200,10 @@
 		min-height: 200px;
 		padding-bottom: 0;
 	}
-	.features-area .single:after, .features-area .single .icon-holder i::after {
+	.features-area .single:after, .features-area .single .icon-holder i::after,.features-area .single .icon-holder figure::after {
 		content: unset;
 	}
-	.features-area .single .icon-holder i, .features-area .right .single .icon-holder i{
+	.features-area .single .icon-holder i, .features-area .right .single .icon-holder i,.features-area .single .icon-holder i::after , .features-area .single .right .icon-holder i::after{
 		padding: 0 0 20px;
 	}
 	.feature-img img {
